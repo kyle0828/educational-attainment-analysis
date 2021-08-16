@@ -130,7 +130,7 @@ data.tail()
 
 
 
-##### What were the percentages for women vs. men having earned a Bachelor's Degree in 1980?
+#### What were the percentages for women vs. men having earned a Bachelor's Degree in 1980?
 
 Compares the percentages of having bachelor's degree in 1980 by sex,
 returns a dataframe with a row for men and a row for women with columns 'Sex' and 'Total'.
@@ -185,7 +185,7 @@ df
 
 
 
-##### What were the two most commonly awarded levels of educational attainment awarded between 2000-2010 (inclusive) for male?
+#### What were the two most commonly awarded levels of educational attainment awarded between 2000-2010 (inclusive) for male?
 
 Returns Series that shows the two most commonly awarded levels of
 educational attainment awarded between 2000-2010 for all students.
@@ -214,8 +214,8 @@ res.nlargest(2)
 sns.set(font_scale=1.2) # set font size
 ```
 
-#### Line chart
-##### What are the total percentages of all people of bachelor's degree as minimal completion over years
+### Line chart
+#### What are the total percentages of all people of bachelor's degree as minimal completion over years
 
 
 ```python
@@ -235,8 +235,8 @@ plt.savefig('line_plot_bachelors.png', bbox_inches='tight')
 ![png](img/output_10_0.png)
 
 
-#### Bar chart
-##### What are the total percentages of women, men, and total people with a minimum education of high school degrees in the year 2009?
+### Bar chart
+#### What are the total percentages of women, men, and total people with a minimum education of high school degrees in the year 2009?
 
 
 ```python
@@ -258,8 +258,8 @@ plt.savefig('bar_chart_high_school.png', bbox_inches='tight')
 ![png](img/output_12_0.png)
 
 
-#### Line chart
-##### How the percent of Hispanic individuals with degrees has changed between 1990 and 2010 for high school and bachelor's degrees ?
+### Line chart
+#### How the percent of Hispanic individuals with degrees has changed between 1990 and 2010 for high school and bachelor's degrees ?
 
 
 ```python
